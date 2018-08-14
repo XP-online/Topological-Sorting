@@ -11,8 +11,8 @@
 void initGraph(Graph* pGraph)//分支增加
 {//分支增加
 	//初始化图的节点
-	int i = 1;
-	for (; i <= 7;i++)
+
+	for (int i = 1; i <= 7;i++)
 	{
 		Vertex* ver = nullptr;
 		 = new Vertex(i);
