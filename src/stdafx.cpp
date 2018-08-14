@@ -6,17 +6,19 @@
 
 // TODO: reference any additional headers you need in STDAFX.H
 // and not in this file
-//测试修改3Bdfasdfnnnnnnnnn
-void initGraph(Graph* pGraph)
-{
+//测试修改3主程序修改
+//主程序新增
+void initGraph(Graph* pGraph)//主程序xin
+{//主程序新增
 	//初始化图的节点
-	for (int i = 1; i <= 7;i++)
+	int i = 1;
+	for (; i <= 7;i++)
 	{
 		Vertex* ver = new Vertex(i);
 		pGraph->addtoGraph(ver);
 		//列出图的的顶点
 	//	printf("%d\n", ver->itNum());
-	}
+	}//主程序新增
 
 	//构建图的结构
 
