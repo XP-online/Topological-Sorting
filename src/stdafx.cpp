@@ -6,7 +6,7 @@
 
 // TODO: reference any additional headers you need in STDAFX.H
 // and not in this file
-//测试修改3Bdfasdf
+//测试修改3Bdfasdfnnnnnnnnn
 void initGraph(Graph* pGraph)
 {
 	//初始化图的节点
